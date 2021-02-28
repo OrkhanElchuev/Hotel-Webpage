@@ -33,7 +33,7 @@ p {
 }
 
 .text-primary {
-  color: coral;
+  color: #f7c18ace;
 }
 
 .lead {
@@ -51,7 +51,7 @@ p {
 }
 
 .btn:hover {
-  background: coral;
+  background: #f7c18ace;
   color: #333;
 }
 
@@ -71,8 +71,8 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-  color: coral;
+  background: #f7c18ace;
+  color: #333;
 }
 
 
@@ -114,7 +114,7 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current {
   background: #444;
-  color: coral;
+  color:  #f7c18ace;
 }
 
 /* Showcase */
@@ -163,4 +163,16 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
 }
