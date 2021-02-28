@@ -1,5 +1,6 @@
 # Hotel-Webpage
 First HTML and CSS project. A simple website with 3 pages, without connection to back-end and without any functionality except for buttons and links.
+Not responsive. The project is created to practice skills of basic HTML and CSS styling.
 
 ## Screenshots and detailed description
 #### Home Page - Main page with functional links/buttons
