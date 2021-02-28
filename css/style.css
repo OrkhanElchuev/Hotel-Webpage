@@ -75,6 +75,23 @@ p {
   color: #333;
 }
 
+.l-heading {
+  font-size: 40px;
+}
+
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-2 {
+  padding: 20px 0;
+}
+
+.py-3 {
+  padding: 30px 0;
+}
+
 /* Clear Floating */
 .clr {
   clear: both;
@@ -87,18 +104,15 @@ p {
   overflow: auto;
 }
 
-/* Color of the text for navigation bar */
 #navbar a {
   color: #fff;
 }
 
-/* Logo location */
 #navbar h1 {
   float: left;
   padding-top: 20px;
 }
 
-/* Home, About, Contact buttons location */
 #navbar ul {
   list-style: none;
   float: right;
@@ -114,7 +128,6 @@ p {
   text-align: center;
 }
 
-/* Home button in navigation bar is preselected on the Home page */
 #navbar ul li a:hover,
 #navbar ul li a.current {
   background: #444;
@@ -181,6 +194,52 @@ p {
   margin-bottom: 10px;
 }
 
+/* About Info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 600px;
+  background: url('../img/background_about.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+#testimonials .testimonial img {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
 /* Footer */
 #main-footer {
   text-align: center;
@@ -188,3 +247,4 @@ p {
   color: #fff;
   padding: 20px;
 }
+
