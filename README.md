@@ -1,6 +1,6 @@
 # Hotel-Webpage
 First HTML and CSS project. A simple website with 3 pages, without connection to back-end and without any functionality except for buttons and links.
-The project is created to practice skills of basic HTML and CSS styling.
+The project is created by following Brad Traversy's Udemy course, to practice skills of basic HTML and CSS styling.
 
 ## Screenshots and detailed description
 #### Home Page - Main page with functional links/buttons
